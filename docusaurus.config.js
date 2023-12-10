@@ -76,14 +76,15 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Angebot',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          {to: '/references', label: 'Referenzen', position: 'left'},
+          {to: '/profile', label: 'Über Uns', position: 'left'},
+          // {
+          //   href: 'https://github.com/facebook/docusaurus',
+          //   label: 'GitHub',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {
@@ -102,16 +103,16 @@ const config = {
             title: 'Soziale Medien',
             items: [
               {
-                label: 'Stack Overflow',
+                label: 'WhatsApp',
                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Instagram',
+                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Facebook',
+                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
             ],
           },
@@ -119,11 +120,11 @@ const config = {
             title: 'Referenzen',
             items: [
               {
-                label: 'Blog',
+                label: 'Zertifikate',
                 to: '/blog',
               },
               {
-                label: 'GitHub',
+                label: 'Rezensionen',
                 href: 'https://github.com/facebook/docusaurus',
               },
             ],
