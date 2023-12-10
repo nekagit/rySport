@@ -1,11 +1,10 @@
-import clsx from "clsx";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
+import clsx from "clsx";
 
-import Heading from "@theme/Heading";
-import styles from "./index.module.css";
 import React from "react";
 import HomepageSections from "../components/HomepageFeatures/landing";
+import styles from "./index.module.css";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -27,7 +26,7 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />"
     >
       <HomepageHeader />
